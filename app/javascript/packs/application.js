@@ -8,6 +8,9 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+//作成したjsファイルを使えるようにする
+import "./top.js"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
