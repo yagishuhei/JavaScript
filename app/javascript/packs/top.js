@@ -1,7 +1,8 @@
 document.addEventListener('turbolinks:load', () =>{
 
-let hello = 'Hello World';
-alert(hello);
+let hello = 'Hello';
+let world = 'World';
+alert(hello+world);
 
 })
 
